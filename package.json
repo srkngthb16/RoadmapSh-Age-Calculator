@@ -1,0 +1,19 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "A small age calculator using Luxon and Flatpickr",
+  "private": true,
+  "scripts": {
+    "start": "http-server -c-1 . -p 8080",
+    "install:all": "npm install"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "luxon": "^3.6.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
